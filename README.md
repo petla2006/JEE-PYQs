@@ -1,4 +1,7 @@
-# You thought it was over? 
+# You thought it was over? Part II
+
+> Using github without command line for pull requests is fine (but discouraged), though, creating unnecessarily many commits will be awarded -ve marks.
+
   I mean, surely you didn't. Of course there are more steps to getting your marks than mere human approval. Of course there are.
     
   Let's start with commiting your solutions to this repository.
@@ -10,11 +13,11 @@
 
   ### Your To-Do List:
 
->1. Add your Tex files (If any), to the specific folder
-You'll find that there exist folders with all the chapter names. Navigate to that folder and create a folder for your section (if it doesn't exist), and a subfolder for your question set (Ex: 15-30)
+>1. Add your Tex files, to the specific section folder
+You'll find that there exist folders with all the chapter names and section names. Navigate to the folder and create a folder for your section for your question set (Ex: 15-30), and add your tex file
 
 >2. If there are multiple sections in your typing assignment, seperate them into multiple tex files.
-For example if your main tex file contains `\section{}` more than once, make another tex file with a relevant name and move the section content into it.
+For example if your main tex file contains `\section{}` more than once, make another tex file with a relevant name and move the section content into it. Place each tex file in it's respective section/question_set folder
   
 >3. Comment out the lines with `\begin{enumerate}` and `\end{enumerate}`, but leave the `\item`s. This is to ensure consistent numbering in the assignments. If for any reason, you didn't use enumerate, make sure you add `\item` before each question. Also remove `\begin{document}` and `\end{document}`
 
@@ -85,7 +88,7 @@ Suppose your main LaTeX file looks something like this:
 
 After changes, the tex files may look like this
 
-In Section 1 Folder
+In `fitb/1-2` Folder,
   ```latex
   \iffalse
     \title{Assignment}
@@ -101,7 +104,7 @@ In Section 1 Folder
     % \end{enumerate}
   % \end{document}
   ```
-  In Section 2 folder
+  In `mcq-single/1-2` folder
   ```latex
 
   \iffalse
@@ -117,7 +120,7 @@ In Section 1 Folder
 
   % \end{enumerate}
   ```
-  In Section 3 folder
+  In `matrix-match/1-4` folder
   ```latex
    \iffalse
       \title{Assignment}
@@ -136,7 +139,7 @@ In Section 1 Folder
     % \end{enumerate}
   ```
 
-After doing this, you can run 
+After doing this, you have to run 
 ```bash
   python3 latexgen.py
 ```
@@ -155,7 +158,7 @@ As you can see, this error means that you forgot to include the `\section{}` mac
 
 Also self explanatory, but this means that you forgot to include the `\author{}` macro in your tex files.
 
-  > Exception: Fatal Error: JEE/Circle/Section 2/30-45/main.tex possible values for \section are: dict_keys(['true-false', 'matrix-match', 'mcq-single', 'mcq-multiple', 'fitb'])
+  > Exception: Fatal Error: JEE/Circle/Section 2/30-45/main.tex possible values for \section are: dict_keys(['true-false', 'matrix-match', 'mcq-single', 'mcq-multiple', 'fitb', 'ar', 'paragraph, 'subjective', 'mains', 'integer'])
 
 There are specific section names you can use. The list includes
   
@@ -177,6 +180,8 @@ There are specific section names you can use. The list includes
 
   9. mains : Section-B Mains/AIEEE
 
+  10. ar : Assertion and Reason Type 
+
 
 Then run
 ```sh
@@ -189,3 +194,4 @@ To generate a PDF file. Check if the formatting of all your questions is correct
 
 
   For details about how to make and manage "Pull Requests", follow this [Link](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
+
