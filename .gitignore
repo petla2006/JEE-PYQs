@@ -1,6 +1,6 @@
 # zchapter instead of chapter so that all
 # chapters are sorted before it.
-JEE/zchapters/*
+# JEE/zchapters/*
 /main.*
 !/main.tex
 /texput.log
