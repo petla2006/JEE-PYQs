@@ -1,0 +1,164 @@
+{
+    "latex.root":"JEE",
+
+    "latex.hints.chapter":"\\chapter",
+    "latex.hints.question":"\\question",
+    "latex.hints.solution":"\\solution",
+    "latex.hints.author": "\\author",
+    "latex.hints.section": "\\section",
+
+    "latex.toggles.format": "include-all-post-fi",
+    "latex.toggles.sections": true,
+    "latex.toggles.useFolderNames": true,
+
+    "pdf.chapters" : {
+        "applications of derivatives": {
+            "name": "applications-derivatives",
+            "file": "JEE/zchapters/applications-of-derivatives.tex"
+        },
+        "trigonometric functions & equations": {
+            "name": "trigonometric-functions-equations",
+            "file": "JEE/zchapters/trigonometric-functions-&-equations.tex"
+        },
+        "functions": {
+            "name": "functions",
+            "file": "JEE/zchapters/functions.tex"
+        },
+        "limits, continuity": {
+            "name": "limits-continuity",
+            "file": "JEE/zchapters/limits,-continuity.tex"
+        },
+        "differentiation": {
+            "name": "differentiation",
+            "file": "JEE/zchapters/differentiation.tex"
+        },
+        "properties of triangle": {
+            "name": "properties-triangle",
+            "file": "JEE/zchapters/properties-of-triangle.tex"
+        },
+        "inverse trigonometric functions": {
+            "name": "inverse-trigonometric-functions",
+            "file": "JEE/zchapters/inverse-trigonometric-functions.tex"
+        },
+        "matrices and determinants": {
+            "name": "matrices-determinants",
+            "file": "JEE/zchapters/matrices-and-determinants.tex"
+        },
+        "indefinite integrals": {
+            "name": "indefinite-integrals",
+            "file": "JEE/zchapters/indefinite-integrals.tex"
+        },
+        "definite integrals and applications of integrals": {
+            "name": "definite-integrals-applications-integrals",
+            "file": "JEE/zchapters/definite-integrals-and-applications-of-integrals.tex"
+        },
+        "differential equations": {
+            "name": "differential-equations",
+            "file": "JEE/zchapters/differential-equations.tex"
+        },
+        "complex numbers": {
+            "name": "complex-numbers",
+            "file": "JEE/zchapters/complex-numbers.tex"
+        },
+        "vector algebra": {
+            "name": "vector-algebra",
+            "file": "JEE/zchapters/vector-algebra.tex"
+        },
+        "probability": {
+            "name": "probability",
+            "file": "JEE/zchapters/probability.tex"
+        },
+        "miscellaneous": {
+            "name": "miscellaneous",
+            "file": "JEE/zchapters/miscellaneous.tex"
+        },
+        "quadratic equation": {
+            "name": "quadratic-equation",
+            "file": "JEE/zchapters/quadratic-equation.tex"
+        },
+        "permutations and combinations": {
+            "name": "permutations-combinations",
+            "file": "JEE/zchapters/permutations-and-combinations.tex"
+        },
+        "mathematical induction and binomial theorem": {
+            "name": "mathematical-induction-binomial-theorem",
+            "file": "JEE/zchapters/mathematical-induction-and-binomial-theorem.tex"
+        },
+        "sequences and series": {
+            "name": "sequences-series",
+            "file": "JEE/zchapters/sequences-and-series.tex"
+        },
+        "straight lines": {
+            "name": "straight-lines",
+            "file": "JEE/zchapters/straight-lines.tex"
+        },
+        "circle": {
+            "name": "circle",
+            "file": "JEE/zchapters/circle.tex"
+        },
+        "conic sections": {
+            "name": "conic-sections",
+            "file": "JEE/zchapters/conic-sections.tex"
+        }
+    },
+    "pdf.conditions.solved" : [
+        "\\begin{align}",
+        "\\begin{table}",
+        "\\begin{figure}"
+    ],
+    "pdf.conditions.validlatex" : [
+        "\\fi",
+        "\\iffalse"
+    ],
+    "pdf.styles.macro":"\\pdfcsubs",
+    "pdf.styles.chapter":"styles/chapter.tex",
+    "pdf.styles.section":"styles/section.tex",
+    "pdf.styles.question":"styles/question.tex",
+
+    "pdf.sections" : {
+        "true-false": {
+            "name":"True or False",
+            "keys":["True False"]
+        },
+        "matrix-match": {
+            "name":"Match The Following",
+            "keys":["Match Following", "MCQ more than"]
+        },
+        "mcq-single": {
+            "name":"MCQs with a single correct answer",
+            "keys":["MCQ single"]
+        },
+        "mcq-multiple": {
+            "name":"MCQs with multiple correct Answers",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        },
+        "fitb":{
+            "name":"Fill In The Blanks",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        },
+        "integer":{
+            "name":"Integer Value Type Questions",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        },
+        "subjective":{
+            "name":"Subjective Questions",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        },
+        "ar":{
+            "name":"Assertion and Reason type Questions",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        },
+        "paragraph":{
+            "name":"Comprehenstion Based Questions",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        },
+        "mains":{
+            "name":"JEE Mains / AIEEE",
+            "keys":["MCQ One or more than One", "MCQ more than"]
+        }
+    },
+
+    "pdf.skipfile":"styles/skip.txt",
+    "pdf.authorslist":"styles/authors.txt",
+    "pdf.log":"styles/pycompile.log"
+}
