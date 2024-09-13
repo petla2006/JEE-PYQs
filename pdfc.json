@@ -125,11 +125,11 @@
             "keys":["Match Following", "MCQ more than"]
         },
         "mcq-single": {
-            "name":"MCQs with a single correct answer",
+            "name":"MCQs with a Single Correct Answer",
             "keys":["MCQ single"]
         },
         "mcq-multiple": {
-            "name":"MCQs with multiple correct Answers",
+            "name":"MCQs with Multiple Correct Answers",
             "keys":["MCQ One or more than One", "MCQ more than"]
         },
         "fitb":{
